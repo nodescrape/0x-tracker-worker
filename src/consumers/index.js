@@ -1,5 +1,6 @@
 const _ = require('lodash');
 const { getQueues } = require('../queues');
+const aggregateTraderMetrics = require('./aggregate-trader-metrics');
 const bulkIndexFills = require('./bulk-index-fills');
 const fetchFillStatus = require('./fetch-fill-status');
 const indexFill = require('./index-fill');
@@ -7,6 +8,7 @@ const indexFillStatus = require('./index-fill-status');
 const indexFillValue = require('./index-fill-value');
 
 const consumers = [
+  aggregateTraderMetrics,
   bulkIndexFills,
   fetchFillStatus,
   indexFill,

@@ -31,6 +31,7 @@ module.exports = {
     SUCCESSFUL: 1,
   },
   JOB: {
+    AGGREGATE_TRADER_METRICS: 'aggregate-trader-metrics',
     BULK_INDEX_FILLS: 'bulk-index-fills',
     FETCH_FILL_STATUS: 'fetch-fill-status',
     INDEX_FILL: 'index-fill',
@@ -41,6 +42,7 @@ module.exports = {
     BULK_INDEXING: 'bulk-indexing',
     FILL_INDEXING: 'fill-indexing',
     FILL_PROCESSING: 'fill-processing',
+    METRICS_AGGREGATION: 'metrics-aggregation',
   },
   SYMBOL_MAPPINGS: {
     DAIW: 'DAI',
