@@ -53,7 +53,7 @@
     "config": "3.1.0",
     "dotenv-safe": "6.1.0",
     "ethereum-token-utils": "git+https://github.com/0xTracker/ethereum-token-utils.git",
-    "flat": "4.1.0",
+    "flat": "5.0.0",
     "lodash": "4.17.15",
     "memory-cache": "0.2.0",
     "moment": "2.24.0",
